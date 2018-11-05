@@ -1,0 +1,375 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    
+    font-family: Lato;
+    font-weight: 300;
+    color: #fff;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+/*----MOBILE LAYOUT---*/
+
+/*---HEADER---*/
+
+header
+{
+    height: 650px;
+    width: 100%;
+    background-image: linear-gradient(#261f7f, #8e8bd2);
+}
+
+.logoFylo img
+{    
+    position: relative;
+    left: 15px;
+    padding: 15px;
+    height: 20px;
+    top: 15px;
+    width: auto;
+}
+
+/*---NAVIGATION MENU---*/
+
+.nav-menu 
+{
+    position: relative;
+    left: 44%;
+    bottom: 30px;
+    font-size: 12px;
+}
+
+.nav-menu ul{list-style: none;}
+
+.nav-menu li 
+{    
+    display: inline-block;
+    margin: 7px;
+}
+
+.nav-menu a 
+{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-menu li a 
+{
+    position: relative;
+    margin-left: 15px;
+}
+
+.signUpBtn 
+{
+     position: relative;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    border-style: none;
+    background-color: #06d79d;
+    border-radius: 2px;
+    border-style: none;
+    width: 70px;
+    height: 20px;
+    padding-top: 2px;
+}
+
+/*---------*/
+
+.heroImg img
+{
+    position: relative;
+    height: auto;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50px;
+}
+
+.heroImg a {background-color: #06d79d;}
+
+/*---NEW TEXT IN H1 FOR DESKTOP---*/
+
+.heroText h1
+{
+    position: relative;
+    font-size: 1em;
+    width: 200px;
+    left: 5%;
+}
+
+
+
+
+.getStartedBtn 
+{
+    position: relative;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 30px;
+    left: 28%;
+    bottom: 40px;
+    text-decoration: none;
+    background-color: #06d79d;
+    border-radius: 5px;
+    border-style: none;
+    width: 110px;
+    text-align: center;
+}
+
+
+h1 
+{
+    font-size: 20px;
+    text-align: center;
+    margin: 70px;
+}
+
+/*---BODY, STAY PRODUCTIVE SECTION---*/
+
+.stayProductiveBody
+{
+    margin-top: -30px;
+    height: 1600px;
+    background-color: #fff;
+    color: #07043b;
+    -ms-transform: skewY(8deg);
+    /* IE 9 */
+    -webkit-transform: skewY(8deg);
+    /* Safari*/
+    transform: skewY(8deg);
+    width: 100%;
+}
+
+.stayProductiveBody h3, h4{color: #07043b;}
+
+.stayProductiveBody h3 {width: 200px;}
+
+.stayProductiveBody p {color: #7e7e7e;}
+
+
+.stayProductiveImg img 
+{
+    position: relative;
+    width: 200px;
+    display: block;
+    margin: 60px auto 70px auto;
+    padding: 60px 0px;
+}
+
+.stayProductiveImg h3 
+{
+    position: relative;
+    font-size: 22px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    top: 70px;
+}
+
+/*--BODY TEXT CONTENT--*/
+
+.fourTitles { margin: 0 38px;}
+
+.fourTitles h4
+{
+    margin-bottom: 23px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/*--Four text Boxes--*/
+
+.stayProductiveSection1,
+.stayProductiveSection2,
+.stayProductiveSection3,
+.stayProductiveSection4 {margin-bottom: 50px;}
+
+
+
+/*--GET EARLY ACCESS DIV--*/
+
+.getEarlyAccessToday
+{
+    margin: 0px 0;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.getEarlyAccessToday h3 
+{
+    margin: 20px 38px;
+    font-size: 22px;
+    font-weight: 600;
+    width: 300px;
+}
+
+.getEarlyAccessToday p 
+{
+    margin: 30px 30px;
+    color: #4f46a1;
+    font-weight: 400;
+}
+
+
+
+
+#earlyAccessEmailInput 
+{
+    height: 40px;
+    width: 300px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    padding: 5px 5px 5px 25px;
+}
+
+#earlyAccessEmailSubmit 
+{
+    border: none;
+    height: 40px;
+    width: 330px;
+    background-color: #06d79d;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+
+
+
+/*---------FOOTER---------*/
+
+footer 
+{
+    margin-top: -30px;
+    height: 1250px;
+    background-color: #07043b;
+    color: #fff;
+    width: 100%;
+}
+
+.footerLogo {position: relative;}
+
+.footerLinks ul {list-style: none;}
+
+
+.footerText 
+{
+    position: relative;
+    height: auto;
+}
+
+.footerLogoImg 
+{
+    margin: 130px 0 50px 70px;
+    transform: scale(1.4);
+}
+
+.footerLogo li img 
+{
+    margin-left: 50px;
+    width: 25px;
+    height: 25px;
+}
+
+.footerLogo li p 
+{
+    color: white;
+    position: relative;
+    left: 94px;
+    bottom: 24px;
+}
+
+.receiveUpdates {position: relative;}
+
+.receiveUpdates h3 
+{
+    position: relative;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 1.1;
+    text-align: center;
+    padding: 50px 100px 30px 29px;
+    letter-spacing: 0.2mm;
+    width: 280px;
+    left: 4%;
+}
+
+.updatesForm { margin: 30px 5px;}
+
+#updatesFormEmailInput 
+{
+    position: relative;
+    left: 50px;
+    top: -20px;
+    width: 260px;
+    height: 40px;
+    border-radius: 2px;
+    border-style: none;
+}
+
+#updatesFormEmailSubmit 
+{
+    position: relative;
+    left: 185px;
+    top: -10px;
+    border-style: none;
+    width: 125px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #06d79d;
+    color: #fff;
+}
+
+.footerLinks { margin-bottom: 30px;}
+
+.footerLinks h4, a
+{
+    position: relative;
+    left: 38px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footerLinksSupport h4, a 
+{
+    position: relative;
+    left: 38px;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 25px;
+    line-height: 1.7;
+}
+
+.footerLinksSupport ul { list-style: none;}
+
+.footerLinks h4 {margin-bottom: 25px;}
+
+.footerLinks a{ line-height: 1.7;}
+
+/*---SKEW TRANSFORMATION---*/
+
+.stayProductiveImg,
+.fourTitles,
+.getEarlyAccessToday
+{
+    -ms-transform: skewY(-8deg);
+    /* IE 9 */
+    -webkit-transform: skewY(-8deg);
+    /* Safari*/
+    transform: skewY(-8deg);
+}
